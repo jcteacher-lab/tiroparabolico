@@ -36,6 +36,100 @@ El proyecto está pensado como recurso didáctico para apoyar el estudio de conc
 - Aplicación completamente ejecutable desde un navegador web.
 - No requiere instalación de software adicional.
 
+# ⚡ Tiro Parabólico Interactivo
+
+Simulador educativo de movimiento de proyectiles (tiro parabólico) desarrollado
+en **HTML + CSS + JavaScript** puro con **Canvas 2D**. Autocontenido en un solo
+archivo, sin dependencias externas.
+
+---
+
+## ✨ Características
+
+- 🎚️ Controles interactivos de **velocidad inicial** y **ángulo**.
+- 🎬 Animación en tiempo real de la trayectoria parabólica.
+- 📐 Cálculo automático de **tiempo de vuelo**, **alcance máximo** y **altura máxima**.
+- 📋 Tabla de **tabulación por segundo** con posición y velocidad del proyectil.
+- 📊 Cuadrícula adaptativa con ejes etiquetados en metros.
+- 🌐 Interfaz completamente en **español**.
+
+---
+
+## 🆕 Novedades v2.0.0
+
+- 📋 **Módulo de tabulación por segundo:** nueva tabla en vivo con `t`, `x`, `y`,
+  `vₓ` y `v_y`. La fila final (punto de impacto) se resalta en verde.
+- 🎨 **Canvas optimizado:** márgenes superior e inferior reducidos para aprovechar
+  mejor el espacio vertical de la gráfica.
+- 🎨 **Panel lateral ampliado** de `240px` a `260px` para acomodar la tabla.
+- ✅ **Módulo 100% aditivo:** no se modificó la lógica del simulador original.
+
+---
+
+## 🚀 Cómo usar
+
+1. Descarga el archivo `tiro_parabolico.html`.
+2. Ábrelo con cualquier navegador moderno (Chrome, Firefox, Edge, Safari).
+3. Ajusta la **velocidad inicial** y el **ángulo** con los deslizadores.
+4. Presiona **🚀 Lanzar proyectil** para ver la animación.
+5. Consulta la **tabla de tabulación** para revisar los valores segundo a segundo.
+
+---
+
+## 🎮 Controles del simulador
+
+| Control | Rango | Descripción |
+|---|:---:|---|
+| Velocidad inicial | 5 – 80 m/s | Magnitud de la velocidad de lanzamiento |
+| Ángulo | 5° – 85° | Inclinación respecto a la horizontal |
+| Botón Lanzar | — | Inicia la animación de la trayectoria |
+
+### 📤 Salidas en pantalla
+
+- ⏱️ **Tiempo de vuelo** (s)
+- 📏 **Alcance máximo** (m)
+- 📈 **Altura máxima** (m)
+- 📋 **Tabla de tabulación por segundo** con columnas:
+
+  | t (s) | x (m) | y (m) | vₓ (m/s) | v_y (m/s) |
+  |:---:|:---:|:---:|:---:|:---:|
+  | 0.0 | 0.00 | 0.00 | 21.21 | 21.21 |
+  | 1.0 | 21.21 | 16.31 | 21.21 | 11.40 |
+  | 2.0 | 42.43 | 22.89 | 21.21 | 1.59 |
+  | ... | ... | ... | ... | ... |
+  | 4.33 | 91.70 | 0.00 | 21.21 | -21.21 |
+
+  > La última fila (impacto en `t = t_vuelo`) aparece resaltada en **verde**.
+
+---
+
+## 📚 Uso didáctico
+
+Este simulador está pensado para clases de **Física** (MRU, MRUA y tiro parabólico).
+Permite al alumno:
+
+- Comparar la **componente horizontal constante** frente a la **componente vertical variable**.
+- Construir **tablas experimentales** y contrastarlas con los valores teóricos.
+- Verificar las ecuaciones:
+
+$$
+R = \frac{v_0^2 \sin(2\theta)}{g}, \quad
+H = \frac{v_0^2 \sin^2\theta}{2g}, \quad
+t_{vuelo} = \frac{2v_0 \sin\theta}{g}
+$$
+
+---
+
+## 🛠️ Tecnologías
+
+- **HTML5**
+- **CSS3** (flexbox, grid, backdrop-filter)
+- **JavaScript ES6+**
+- **Canvas 2D API**
+- Sin librerías externas
+
+---
+
 ## Modelo físico
 
 La simulación considera un modelo ideal de tiro parabólico, en el que el movimiento puede analizarse mediante dos componentes independientes:
