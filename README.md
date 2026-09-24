@@ -219,7 +219,7 @@ Como proyecto educativo, puede ampliarse incorporando:
 
 ## Autor
 
-**Juan Carlos Santiago**
+**MTI. Juan Carlos Santiago Sánchez**
 
 Proyecto educativo orientado a la integración de **física, matemáticas, programación y tecnologías web**.
 
