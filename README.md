@@ -1,6 +1,7 @@
 # Tiro parabólico
 
 Simulación interactiva del movimiento de un proyectil mediante HTML, CSS y JavaScript.
+https://jcteacher-lab.github.io/tiroparabolico/
 
 ## Descripción
 
