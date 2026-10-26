@@ -37,7 +37,7 @@ El proyecto está pensado como recurso didáctico para apoyar el estudio de conc
 - Aplicación completamente ejecutable desde un navegador web.
 - No requiere instalación de software adicional.
 
-# ⚡ Tiro Parabólico Interactivo
+# Tiro Parabólico Interactivo
 
 Simulador educativo de movimiento de proyectiles (tiro parabólico) desarrollado
 en **HTML + CSS + JavaScript** puro con **Canvas 2D**. Autocontenido en un solo
@@ -45,29 +45,29 @@ archivo, sin dependencias externas.
 
 ---
 
-## ✨ Características
+## Características
 
-- 🎚️ Controles interactivos de **velocidad inicial** y **ángulo**.
-- 🎬 Animación en tiempo real de la trayectoria parabólica.
-- 📐 Cálculo automático de **tiempo de vuelo**, **alcance máximo** y **altura máxima**.
-- 📋 Tabla de **tabulación por segundo** con posición y velocidad del proyectil.
-- 📊 Cuadrícula adaptativa con ejes etiquetados en metros.
-- 🌐 Interfaz completamente en **español**.
+- Controles interactivos de **velocidad inicial** y **ángulo**.
+- Animación en tiempo real de la trayectoria parabólica.
+- Cálculo automático de **tiempo de vuelo**, **alcance máximo** y **altura máxima**.
+- Tabla de **tabulación por segundo** con posición y velocidad del proyectil.
+- Cuadrícula adaptativa con ejes etiquetados en metros.
+- Interfaz completamente en **español**.
 
 ---
 
-## 🆕 Novedades v2.0.0
+## Novedades v2.0.0
 
-- 📋 **Módulo de tabulación por segundo:** nueva tabla en vivo con `t`, `x`, `y`,
+- **Módulo de tabulación por segundo:** nueva tabla en vivo con `t`, `x`, `y`,
   `vₓ` y `v_y`. La fila final (punto de impacto) se resalta en verde.
-- 🎨 **Canvas optimizado:** márgenes superior e inferior reducidos para aprovechar
+- **Canvas optimizado:** márgenes superior e inferior reducidos para aprovechar
   mejor el espacio vertical de la gráfica.
-- 🎨 **Panel lateral ampliado** de `240px` a `260px` para acomodar la tabla.
-- ✅ **Módulo 100% aditivo:** no se modificó la lógica del simulador original.
+- **Panel lateral ampliado** de `240px` a `260px` para acomodar la tabla.
+- **Módulo 100% aditivo:** no se modificó la lógica del simulador original.
 
 ---
 
-## 🚀 Cómo usar
+## Cómo usar
 
 1. Descarga el archivo `tiro_parabolico.html`.
 2. Ábrelo con cualquier navegador moderno (Chrome, Firefox, Edge, Safari).
@@ -77,7 +77,7 @@ archivo, sin dependencias externas.
 
 ---
 
-## 🎮 Controles del simulador
+## Controles del simulador
 
 | Control | Rango | Descripción |
 |---|:---:|---|
@@ -85,12 +85,12 @@ archivo, sin dependencias externas.
 | Ángulo | 5° – 85° | Inclinación respecto a la horizontal |
 | Botón Lanzar | — | Inicia la animación de la trayectoria |
 
-### 📤 Salidas en pantalla
+### Salidas en pantalla
 
-- ⏱️ **Tiempo de vuelo** (s)
-- 📏 **Alcance máximo** (m)
-- 📈 **Altura máxima** (m)
-- 📋 **Tabla de tabulación por segundo** con columnas:
+- **Tiempo de vuelo** (s)
+- **Alcance máximo** (m)
+- **Altura máxima** (m)
+- **Tabla de tabulación por segundo** con columnas:
 
   | t (s) | x (m) | y (m) | vₓ (m/s) | v_y (m/s) |
   |:---:|:---:|:---:|:---:|:---:|
@@ -104,7 +104,7 @@ archivo, sin dependencias externas.
 
 ---
 
-## 📚 Uso didáctico
+## Uso didáctico
 
 Este simulador está pensado para clases de **Física** (MRU, MRUA y tiro parabólico).
 Permite al alumno:
