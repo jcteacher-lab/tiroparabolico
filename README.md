@@ -69,7 +69,7 @@ archivo, sin dependencias externas.
 
 ## Cómo usar
 
-1. Descarga el archivo `tiro_parabolico.html`.
+1. Descarga el archivo `index.html`.
 2. Ábrelo con cualquier navegador moderno (Chrome, Firefox, Edge, Safari).
 3. Ajusta la **velocidad inicial** y el **ángulo** con los deslizadores.
 4. Presiona **🚀 Lanzar proyectil** para ver la animación.
@@ -121,7 +121,7 @@ $$
 
 ---
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 - **HTML5**
 - **CSS3** (flexbox, grid, backdrop-filter)
